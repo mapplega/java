@@ -18,7 +18,7 @@ if ( userInput === "yes" ) {
 
 
 
-let makeABurrito;
+/*let makeABurrito;
 makeABurrito = function(beansVariable, onionsVariable, cilantroVariable){
   let burritoResponse;
   burritoResponse = "You ordered " + beansVariable + " beans." + onionsVariable + "Good choice!";
@@ -30,6 +30,7 @@ makeABurrito(blackBeans);
 let whiteOnion;
 whiteonion = "no onion";
 makeABurrito(whiteOnion);
+*/
 
 /*let makeABurrito;
 makeABurrito = function(beansVariable){
