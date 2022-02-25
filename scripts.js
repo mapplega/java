@@ -12,7 +12,7 @@ userInput = prompt("Do you think you are smart?", "Type your answer below.");
 if ( userInput === "yes" ) {
   $("#response").html("Well aren't you arrogant?");
 } else {
-  $("response").html("You lack confidence.");
+  $("#response").html("You lack confidence.");
 }
 
 
