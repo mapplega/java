@@ -7,16 +7,29 @@ if ( userInput === "burrito" ) {
 }
 */
 
-let userInput;
+/*let userInput;
 userInput = prompt("Do you think you are smart?", "Type your answer below.");
 if ( userInput === "yes" ) {
   $("#response").html("Well aren't you arrogant?");
 } else {
   $("#response").html("You lack confidence.");
 }
+*/
 
 
 
+let makeABurrito;
+makeABurrito = function(beansVariable, onionsVariable, cilantroVariable){
+  let burritoResponse;
+  burritoResponse = "You ordered " + beansVariable + " beans." + onionsVariable + "Good choice!";
+  $("#response").html(burritoResponse);
+};
+let blackBeans;
+blackBeans = "black";
+makeABurrito(blackBeans);
+let whiteOnion;
+whiteonion = "no onion";
+makeABurrito(whiteOnion);
 
 /*let makeABurrito;
 makeABurrito = function(beansVariable){
@@ -27,4 +40,3 @@ makeABurrito = function(beansVariable){
 let blackBeans;
 blackBeans = "black";
 makeABurrito(blackBeans);
-*/
